@@ -7,11 +7,11 @@ node_js:
   - "4.2"
 # command to install dependencies
 install:
-  - pip3 install -r requirements.txt
+  - pip install -r requirements.txt
   - npm i -g npm
   - npm i -g serverless
   - npm i serverless-python-requirements
-  - pip3 install pipenv
+  - pip install pipenv
 # command to run tests
 script:
   # - sls deploy
